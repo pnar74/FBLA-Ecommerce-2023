@@ -71,8 +71,7 @@ group :development do
 end
 
 group :test do
-  # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
-  gem "selenium-webdriver"
-  gem "webdrivers"
+  gem "selenium-webdriver", "~> 4.44.0"
+  gem "rubyzip", ">= 3.4.0", "< 4.0"
 end
